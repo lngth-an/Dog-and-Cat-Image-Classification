@@ -9,10 +9,10 @@ def home():
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     
     # Căn giữa ảnh
-    col1, col2, col3 = st.columns([1, 2, 1]) 
-    with col2:
-        IMAGE_PATH = os.path.join(BASE_DIR, "..", "assets", "picture.jpg")
-       #st.image(IMAGE_PATH, width=650)  # Resize ảnh + căn giữa
+    #col1, col2, col3 = st.columns([1, 2, 1]) 
+    #with col2:
+        #IMAGE_PATH = os.path.join(BASE_DIR, "..", "assets", "picture.jpg")
+        #st.image(IMAGE_PATH, width=650)  # Resize ảnh + căn giữa
 
     st.write("### 👇 Just a click to upload an image and find out if it's a dog or a cat! ✨")
     img = st.file_uploader("📂 Choose an image...", type=["jpg", "jpeg", "png"])
