@@ -1,7 +1,7 @@
 import streamlit as st
 from home import home
 
-# Cấu hình chung cho trang
+# Configure page settings
 st.set_page_config(
     page_title="Dog & Cat Classifier",
     page_icon="🐾",
@@ -10,4 +10,5 @@ st.set_page_config(
     
 )
 
+# Launch home page UI
 home()
